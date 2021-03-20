@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+<ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+</ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SSOAPI.Domain.Core\SSOAPI.Domain.Core.csproj" />
+    <ProjectReference Include="..\SSOAPI.Infra.Bus\SSOAPI.Infra.Bus.csproj" />
+    <ProjectReference Include="..\SSOAPI.Infra.Data\SSOAPI.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

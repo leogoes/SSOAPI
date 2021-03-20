@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SSOAPI.Application\SSOAPI.Application.csproj" />
+    <ProjectReference Include="..\SSOAPI.Infra.Bus\SSOAPI.Infra.Bus.csproj" />
+    <ProjectReference Include="..\SSOAPI.Infra.Data\SSOAPI.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

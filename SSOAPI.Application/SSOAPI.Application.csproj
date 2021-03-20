@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+<ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+</ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SSOAPI.Domain\SSOAPI.Domain.csproj" />
+    <ProjectReference Include="..\SSOAPI.Infra.Data\SSOAPI.Infra.Data.csproj" />
+    <ProjectReference Include="..\SSOAPI.Service\SSOAPI.Infra.Mail.csproj" />
+  </ItemGroup>
+
+</Project>
