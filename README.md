@@ -26,9 +26,6 @@ Para armazenar foi utilizado a base de dados ***SQL Server 13.0.4001.0***
 
 As tabelas foram geradas pelo framework ***IdentityServer.***
 
-- Tabelas
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/18d940c5-3ce2-4149-a637-8a0314c6cece/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/18d940c5-3ce2-4149-a637-8a0314c6cece/Untitled.png)
 
 ### 2.1.5 EventBus
 
